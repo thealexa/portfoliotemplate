@@ -2,8 +2,8 @@
 <html lang="en">
 <!-- 
 Assignment Name: Portfolio
-File Name: index.html
-Date:
+File Name: index.php
+Date: 5/15/2018
 Programmer: Alexandra Nitsche -->
 
 <head>
@@ -17,7 +17,7 @@ Programmer: Alexandra Nitsche -->
 </head>
 
 <body>
-       <!--/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */-->
+       <!--/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon*/-->
     
     <script> function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -29,10 +29,10 @@ Programmer: Alexandra Nitsche -->
 }
  </script>
     <!-- header Include-->
-<?php include('includes/header.inc'); ?>
+<?php include('includes/header.php'); ?>
 
     <!-- Navigation Include-->
-<?php include('includes/nav.inc'); ?>    
+<?php include('includes/nav.php'); ?>    
     
     <!-- Main-->
     <main id="main">
@@ -102,7 +102,7 @@ Programmer: Alexandra Nitsche -->
 
     </main>
     <!-- Footer Include-->
-<?php include('includes/footer.inc'); ?>   
+<?php include('includes/footer.php'); ?>   
 
 </body>
 
